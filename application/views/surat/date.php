@@ -10,7 +10,7 @@
                         <h4 class="card-title">Datetime Picker</h4>
                         <div class="form-group">
                             <label class="label-control">Datetime Picker</label>
-                            <input type="text" class="form-control datetimepicker" value="10/05/2016" />
+                            <input type="text" class="form-control datetimepicker" value="10/05/2022" />
                         </div>
                     </div>
                 </div>
