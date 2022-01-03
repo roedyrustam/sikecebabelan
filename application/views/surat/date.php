@@ -24,7 +24,7 @@
                         <h4 class="card-title">Datetime Picker</h4>
                         <div class="form-group">
                             <label class="label-control">Date Picker</label>
-                            <input type="text" class="form-control datepicker" value="10/10/2016" />
+                            <input type="text" class="form-control datepicker" value="01/01/2022" />
                         </div>
                     </div>
                 </div>
@@ -68,14 +68,16 @@
                                 <legend>Customisable Select</legend>
                                 <div class="row">
                                     <div class="col-lg-5 col-md-6 col-sm-3">
-                                        <select class="selectpicker" data-style="btn btn-primary btn-round" title="Single Select" data-size="7">
+                                        <select class="selectpicker" data-style="btn btn-primary btn-round"
+                                            title="Single Select" data-size="7">
                                             <option disabled selected>Choose city</option>
                                             <option value="2">Foobar</option>
                                             <option value="3">Is great</option>
                                         </select>
                                     </div>
                                     <div class="col-lg-5 col-md-6 col-sm-3">
-                                        <select class="selectpicker" data-style="select-with-transition" multiple title="Choose City" data-size="7">
+                                        <select class="selectpicker" data-style="select-with-transition" multiple
+                                            title="Choose City" data-size="7">
                                             <option disabled> Choose city</option>
                                             <option value="2">Paris </option>
                                             <option value="3">Bucharest</option>
@@ -105,7 +107,8 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <legend>Tags</legend>
-                                <input type="text" value="Amsterdam,Washington,Sydney,Beijing" class="tagsinput" data-role="tagsinput" data-color="rose" />
+                                <input type="text" value="Amsterdam,Washington,Sydney,Beijing" class="tagsinput"
+                                    data-role="tagsinput" data-color="rose" />
                                 <!-- You can change data-color="rose" with one of our colors primary | warning | info | danger | success -->
                             </div>
                             <div class="col-md-6">
@@ -113,7 +116,9 @@
                                 <div class="row">
                                     <div class="col-lg-4 col-md-6 col-sm-3">
                                         <div class="dropdown">
-                                            <button href="#pablo" class="dropdown-toggle btn btn-primary btn-round btn-block" data-toggle="dropdown">Dropdown
+                                            <button href="#pablo"
+                                                class="dropdown-toggle btn btn-primary btn-round btn-block"
+                                                data-toggle="dropdown">Dropdown
                                                 <b class="caret"></b>
                                             </button>
                                             <ul class="dropdown-menu dropdown-menu-left">
@@ -140,7 +145,9 @@
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-sm-3">
                                         <div class="dropup">
-                                            <button href="#pablo" class="dropdown-toggle btn btn-primary btn-round btn-block" data-toggle="dropdown">Dropup
+                                            <button href="#pablo"
+                                                class="dropdown-toggle btn btn-primary btn-round btn-block"
+                                                data-toggle="dropdown">Dropup
                                                 <b class="caret"></b>
                                             </button>
                                             <ul class="dropdown-menu dropdown-menu-left">
@@ -174,12 +181,14 @@
                             <div class="col-md-6">
                                 <legend>Progress Bars</legend>
                                 <div class="progress progress-line-primary">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 30%;">
                                         <span class="sr-only">60% Complete</span>
                                     </div>
                                 </div>
                                 <div class="progress progress-line-info">
-                                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60"
+                                        aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
                                         <span class="sr-only">60% Complete</span>
                                     </div>
                                 </div>
@@ -215,7 +224,8 @@
                                             <span class="fileinput-exists">Change</span>
                                             <input type="file" name="..." />
                                         </span>
-                                        <a href="#pablo" class="btn btn-danger btn-round fileinput-exists" data-dismiss="fileinput"><i class="fa fa-times"></i> Remove</a>
+                                        <a href="#pablo" class="btn btn-danger btn-round fileinput-exists"
+                                            data-dismiss="fileinput"><i class="fa fa-times"></i> Remove</a>
                                     </div>
                                 </div>
                             </div>
@@ -233,7 +243,8 @@
                                             <input type="file" name="..." />
                                         </span>
                                         <br />
-                                        <a href="#pablo" class="btn btn-danger btn-round fileinput-exists" data-dismiss="fileinput"><i class="fa fa-times"></i> Remove</a>
+                                        <a href="#pablo" class="btn btn-danger btn-round fileinput-exists"
+                                            data-dismiss="fileinput"><i class="fa fa-times"></i> Remove</a>
                                     </div>
                                 </div>
                             </div>
