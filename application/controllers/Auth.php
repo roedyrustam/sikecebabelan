@@ -78,7 +78,7 @@ class Auth extends CI_Controller
 
         $this->load->library('email', $config);
 
-        $this->email->from('upttikur@gmail.com', 'Unit Pelaksanaan Teknis Teknologi Informasi dan Komunikasi Universitas Riau');
+        $this->email->from('dev@sidepe.com', 'Pandu Talenta Media');
         $this->email->to($this->input->post('email'));
 
 

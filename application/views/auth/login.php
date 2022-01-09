@@ -62,7 +62,8 @@
         </div>
     </nav>
     <div class="wrapper wrapper-full-page">
-        <div class="full-page login-page" filter-color="black" data-image="<?= base_url() ?>assets/img/login.jpeg">
+        <div class="full-page login-page" filter-color="black"
+            data-image="<?= base_url() ?>assets/img/kantorcamatbabelan.png">
             <!--   you can change the color of the filter page using: data-color="blue | purple | green | orange | red | rose " -->
             <div class="content">
                 <div class="container">
@@ -187,7 +188,7 @@
                         <script>
                         document.write(new Date().getFullYear())
                         </script>
-                        <a href="#">SiKeCe</a>, Copyright
+                        <a href="#">SiKeCe</a>Copyright
                     </p>
                 </div>
             </footer>
