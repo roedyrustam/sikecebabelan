@@ -68,6 +68,7 @@ class Suratonline extends CI_Controller
         $nama = $this->input->post('nama', TRUE);
         $nik = $this->input->post('nik', TRUE);
         $no_hp = $this->input->post('no_hp', TRUE);
+        $pekerjaan = $this->input->post('pekerjaan', TRUE);
         $jenis_surat = $this->input->post('jenis_surat', TRUE);
 
         $ceknik = $this->penduduk->cek_penduduk($nik)->num_rows();
@@ -77,6 +78,7 @@ class Suratonline extends CI_Controller
                 'nik' => $nik,
                 'nama' => $nama,
                 'no_hp' => $no_hp,
+                'pekerjaan' => $pekerjaan,
             ];
 
             $this->db->insert('penduduk', $save);

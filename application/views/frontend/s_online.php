@@ -1,7 +1,7 @@
 <section class="page-section">
     <div class="container">
         <?php if ($this->session->flashdata('success') == TRUE) : ?>
-            <?= $this->session->flashdata('success'); ?>
+        <?= $this->session->flashdata('success'); ?>
         <?php endif; ?>
         <div class="text-center">
             <h2 class="section-heading text-uppercase">Pengajuan Surat Online</h2>
@@ -16,18 +16,28 @@
                 </div>
                 <div class="col-lg-6">
                     <label for="nama">Nama *</label>
-                    <?= form_input(['name' => 'nama', 'id' => 'nama', 'class' => 'form-control', "required" => "required", 'placeholder' => 'Silahkan masukkan nama anda']); ?>
+                    <?= form_input(['name' => 'nama', 'id' => 'nama', 'class' => 'form-control', "required" => "required", 'placeholder' => 'Tulis Nama sesuai KTP']); ?>
                 </div>
+                <div class="col-lg-6">
+                    <label for="nama">Alamat *</label>
+                    <?= form_input(['name' => 'alamat', 'id' => 'alamat', 'class' => 'form-control', "required" => "required", 'placeholder' => 'Alamat sesuai KTP']); ?>
+                </div>
+                <div class="col-lg-6">
+                    <label for="nama">Pekerjaan *</label>
+                    <?= form_input(['name' => 'pekerjaan', 'id' => 'alamat', 'class' => 'form-control', "required" => "required", 'placeholder' => 'Pekerjaan sesuai KTP']); ?>
+                </div>
+
                 <div class="col-lg-6 mt-2">
-                    <label for="no_hp">No Hp *</label>
-                    <?= form_input(['type' => 'text', 'name' => 'no_hp', 'id' => 'no_hp', 'class' => 'form-control', "required" => "required", 'placeholder' => 'Silahkan masukkan No Hp anda']); ?>
+                    <label for="no_hp">No Hp / What Apps *</label>
+                    <?= form_input(['type' => 'text', 'name' => 'no_hp', 'id' => 'no_hp', 'class' => 'form-control', "required" => "required", 'placeholder' => 'Silahkan masukkan No Hp / WA anda']); ?>
                 </div>
                 <div class="col-lg-6 mt-2">
                     <label for="jenis">Pilih Jenis Surat *</label>
                     <?= form_dropdown('jenis_surat', $options, '', ['id' => 'jenis', 'class' => 'form-control']); ?>
                 </div>
                 <div class="col-lg-12 mt-2">
-                    <label for="file">File Berkas/Lampiran <sup class="text-danger">*PDF Recommended! | Max 5MB</sup></label>
+                    <label for="file">File Berkas/Lampiran <sup class="text-danger">*PDF Recommended! | Max
+                            5MB</sup></label>
                     <?= form_upload(['name' => 'file', 'id' => 'file', 'class' => 'form-control']) ?>
                 </div>
             </div>
