@@ -2,7 +2,7 @@
 <footer class="footer py-4">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-4 text-lg-left" style="color:white">Copyright © SI <?= date('Y')?> | powr <a
+            <div class="col-lg-4 text-lg-left" style="color:white">Copyright © SI <?= date('Y')?> | <a
                     href='https://sikece.id/' title='StokCoding.com' target='_blank'>SIKECE</a>
             </div>
             <div class="col-lg-4 my-3 my-lg-0">
@@ -11,7 +11,7 @@
                 <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-instagram"></i></a>
             </div>
             <div class="col-lg-4 text-lg-right">
-                <a class="mr-3" href="#!">Contact</a>
+                <a class="mr-3" href="#!"> Kontak Admin</a>
                 <a href="#!">Other</a>
             </div>
         </div>
